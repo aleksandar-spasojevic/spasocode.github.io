@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   vite: {
     site: 'https://aleksandar-spasojevic.github.io',
-    base: '/spasocode.github.io',
+    base: 'spasocode.github.io',
     plugins: [tailwindcss()],
   },
 });
