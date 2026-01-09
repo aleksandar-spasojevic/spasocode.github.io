@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Aleksandar Spasojevic",
+  name: "Aleksandar Spasojević",
   title: "Freelancer, Software Developer",
   description: "Portfolio website of Aleksandar Spasojevic",
   accentColor: "#1d4ed8",
