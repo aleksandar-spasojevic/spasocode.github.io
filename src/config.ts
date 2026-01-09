@@ -12,8 +12,5 @@ export const siteConfig = {
   aboutMe:
     "",
   skills: ["Front Arena", "Java", "Python", "C#", "R", "Docker"],
-  projects: [],
-  experience: [],
-  education: [],
   service: [],
 };
