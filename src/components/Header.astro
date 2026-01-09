@@ -1,9 +1,5 @@
 ---
 import { siteConfig } from "../config";
-
-const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
-const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
 <header
@@ -19,43 +15,19 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         >
           About
         </a>
+        <a
+            href="#service"
+            class="text-gray-700 hover:text-black transition-colors font-medium"
+        >
+          Services
+        </a>
+        <a
+            href="#service"
+            class="text-gray-700 hover:text-black transition-colors font-medium"
+        >
+          Contact
+        </a>
       </li>
-      {
-        hasProjects && (
-          <li>
-            <a
-              href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Projects
-            </a>
-          </li>
-        )
-      }
-      {
-        hasExperience && (
-          <li>
-            <a
-              href="#experience"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Experience
-            </a>
-          </li>
-        )
-      }
-      {
-        hasEducation && (
-          <li>
-            <a
-              href="#education"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Education
-            </a>
-          </li>
-        )
-      }
     </ul>
   </nav>
 </header>
