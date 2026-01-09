@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/aleksandar-spasojevic",
   },
   aboutMe:
-    "",
-  skills: ["Front Arena", "Java", "Python", "C#", "R", "Docker"],
+    "Experienced software developer specializing in trading and financial systems, with a focus on Front Arena (a bank software platform). Proficient in backend development, 3rd-level support, upgrades, and integrations.",
+  skills: ["Front Arena", "Java", "Kotlin", "Python", "C#", "R", "Docker"],
   service: [],
 };
