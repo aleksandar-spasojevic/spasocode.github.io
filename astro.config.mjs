@@ -4,9 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://aleksandar-spasojevic.github.io',
+  base: 'spasocode.github.io',
   vite: {
-    site: 'https://aleksandar-spasojevic.github.io',
-    base: 'spasocode.github.io',
     plugins: [tailwindcss()],
   },
 });
